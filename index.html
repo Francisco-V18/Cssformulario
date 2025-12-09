@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Tareas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+  <div class="menu">
+    <h2>Gestor</h2>
+    <a href="#">Tareas</a>
+    <a class="activo" href="#">Nueva Tarea</a>
+    <a href="#">Búsqueda</a>
+    <a href="#">Salir</a>
+  </div>
+
+  <div class="contenido">
+    <h1>Nueva Tarea</h1>
+
+    <form>
+      <label>Código de Tarea</label>
+      <input type="text">
+
+      <label>Nombre de la Tarea</label>
+      <input type="text">
+
+      <label>Descripción</label>
+      <textarea></textarea>
+
+      <label>Prioridad</label>
+      <select>
+        <option>Alta</option>
+        <option>Media</option>
+        <option>Baja</option>
+      </select>
+
+      <label>Estado</label>
+      <select>
+        <option>Pendiente</option>
+        <option>En Proceso</option>
+        <option>Terminada</option>
+      </select>
+
+      <label>Fecha de Vencimiento</label>
+      <input type="date">
+
+      <button>Registrar Tarea</button>
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
